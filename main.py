@@ -9,7 +9,7 @@ file1.close()
 
 file2 = open("rules/height.txt", "r")
 height_check = int(file2.read())
-file1.close()
+file2.close()
 
 running = True
 while running:
@@ -17,8 +17,8 @@ while running:
     #Get inputs
     os.system('cls')
     print("Rollercoaster-check™")
-    age = input("Voer leeftijd in: ")
-    height = input("Voer lengte in: ")
+    age = input("Voer jouw leeftijd in: ")
+    height = input("Voer jouw lengte in: ")
     age = int(age)
     height = int(height)
 
